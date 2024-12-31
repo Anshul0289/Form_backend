@@ -1,0 +1,118 @@
+body{
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 97.5vh;
+    font-family: 'Arial', sans-serif;
+}
+header{
+  text-align: center;
+  
+}
+section h2{
+    text-align: center;
+}
+section{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px 5px ;
+    border-radius: 20px;
+    color: #fff;
+}
+label{
+   padding:10px;
+   margin-left:110px;
+}
+input[type="radio"] + label {
+    margin-left: 1px;
+    
+    padding-left: 2px; 
+    display: inline-block;
+    padding-right: 60px;
+}
+#email,#name,#dateofvisit{
+    width: 57%;
+    padding: 7px;
+    margin:0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#comments{
+    width: 47%;
+    height:50px;
+    margin:0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#visit_purpose,#pricing{
+
+    width:48%;
+    padding: 7px 0 7px 0px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+select{
+    padding: 7px;
+    margin:0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.ddd{
+    display: inline;
+    margin: 0px;
+}
+
+#kk {
+    display: inline;
+    margin:3px 0 px 10px;
+
+}
+button{
+    width: 30%;
+    height:40px;
+    margin: 5px 0 0 35%;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+   
+    section{
+        width: 90%;
+    }
+    label{
+        
+        padding:0px;
+        margin-left:50px;
+     }
+    #comments{
+        width: 38%;
+        height:39px;
+        margin:0px 0px 0px 14px;
+        border-radius: 5px;
+    }
+    input[type="radio"] + label {
+        margin-left: 0px;
+        
+        padding-left: 2px; 
+        display: inline-block;
+        padding-right: 9px;
+    }
+}
+
